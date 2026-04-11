@@ -1,0 +1,37 @@
+# Data Manipulation & Visualization
+numpy
+pandas
+matplotlib
+seaborn
+
+# Scikit-Learn (Traditional ML)
+scikit-learn
+
+# Deep Learning (Standard to pick one, but both are common)
+
+# tensorflow  # Uncomment if you prefer Google's framework
+
+# NLP Specific Libraries
+transformers  # Hugging Face (Essential for modern NLP)
+datasets      # Hugging Face datasets
+tokenizers    # Fast tokenization
+spacy         # Industrial-strength NLP
+nltk          # Classic NLP toolkit
+
+# Utilities
+tqdm          # Progress bars for long loops
+joblib        # Saving/loading models
+python-dotenv # Managing API keys/environment variables
+
+
+typer==0.24.1
+typer-slim==0.24.0
+typing-inspection==0.4.2
+typing_extensions==4.15.0
+tzdata==2025.3
+urllib3==2.6.3
+wasabi==1.1.3
+weasel==0.4.3
+wrapt==2.1.1
+xxhash==3.6.0
+yarl==1.22.0

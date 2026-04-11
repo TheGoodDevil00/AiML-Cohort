@@ -1,0 +1,3 @@
+python -m venv [Venv Name]
+
+"c:\Dev\AiML\Week Alpha\.venv\Scripts\Activate.ps1""c:\Dev\AiML\Week Alpha\.venv\Scripts\Activate.ps1"
