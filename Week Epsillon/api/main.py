@@ -7,10 +7,13 @@ from src.schema import Iris
 app = FastAPI()
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+print(BASE_DIR)
 model_path = os.path.join(BASE_DIR, "src", "iris_model.pkl")
-
+print(model_path)
 model = joblib.load(model_path)
+print("Model loaded successfully")
 labels = ["setosa", "versicolor", "virginica"]
+print("Labels defined successfully\n", labels)
 
 @app.get('/')
 def home():
